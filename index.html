@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Title of the page -->
+  <title>Guess my card</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- css styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- wrapper container for the instructions paragraph -->
+    <div class="msg">
+      <!-- instructions paragraph -->
+      <p class="msgs">Guess my card!</p>
+    </div>
+
+    <!-- wrapper for displaying the guess -->
+    <div class="row">
+      <!-- div for displaying the guess-->
+      <div class="guess">
+      </div>
+    </div>
+
+    <!-- Wrapper for displaying all the cards -->
+    <div class="row">
+
+      <!-- column 1 -->
+      <div id="col1" class="col-4 column1">
+        <!-- Column title -->
+        <h5>Column 1</h5>
+
+        <!-- div holders for the cards of the first columns-->
+        <div class="row">
+          <div class="cards col1 l1"></div>
+        </div>
+        <div class="row">
+          <div class="cards col1 l2"></div>
+        </div>
+        <div class="row">
+          <div class="cards col1 l3"></div>
+        </div>
+        <div class="row">
+          <div class="cards col1 l4"></div>
+        </div>
+        <div class="row">
+          <div class="cards col1 l5"></div>
+        </div>
+        <div class="row">
+          <div class="cards col1 l6"></div>
+        </div>
+        <div class="row">
+          <div class="cards col1 l7"></div>
+        </div>
+      </div>
+
+
+      <!-- column 2 -->
+      <div id="col2" class="col-4 column2">
+        <!-- column title -->
+        <h5>Column 2</h5>
+
+        <!-- div holders for the cards of the second column -->
+        <div class="row">
+          <div class="cards col2 m1"></div>
+        </div>
+        <div class="row">
+          <div class="cards col2 m2"></div>
+        </div>
+        <div class="row">
+          <div class="cards col2 m3"></div>
+        </div>
+        <div class="row">
+          <div class="cards col2 m4"></div>
+        </div>
+        <div class="row">
+          <div class="cards col2 m5"></div>
+        </div>
+        <div class="row">
+          <div class="cards col2 m6"></div>
+        </div>
+        <div class="row">
+          <div class="cards col2 m7"></div>
+        </div>
+      </div>
+
+      <!-- column 3 -->
+      <div id="col3" class="col-4 column3">
+        <!-- Column title -->
+        <h5>Column 3</h5>
+
+        <!-- div holders for the cards of the third column -->
+        <div class="row">
+          <div class="cards col3 r1"></div>
+        </div>
+        <div class="row">
+          <div class="cards col3 r2"></div>
+        </div>
+        <div class="row">
+          <div class="cards col3 r3"></div>
+        </div>
+        <div class="row">
+          <div class="cards col3 r4"></div>
+        </div>
+        <div class="row">
+          <div class="cards col3 r5"></div>
+        </div>
+        <div class="row">
+          <div class="cards col3 r6"></div>
+        </div>
+        <div class="row">
+          <div class="cards col3 r7"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- play game button -->
+    <div type="button" id="green" class="green btn"> Play!</div>
+
+  </div>
+  <!-- End of the main container -->
+
+  <!-- JQuery source -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript source -->
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>
